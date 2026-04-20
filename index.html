@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Overions — Systematic Investing, Automated</title>
+  <meta name="description" content="Overions builds quantitative investment algorithms and IT infrastructure for individuals and firms. Data-driven decisions, transparent methodology." />
+
+  <!-- Fonts: DM Serif Display (display) + Inter (body) + IBM Plex Mono (technical) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Subtle grid backdrop -->
+  <div class="backdrop" aria-hidden="true"></div>
+
+  <!-- ===== NAV =============================================== -->
+  <header class="nav">
+    <a href="#" class="nav__logo">
+      <span class="nav__mark">◇</span> Overions
+    </a>
+    <nav class="nav__links">
+      <a href="#features">Platform</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn--small">Request access</a>
+  </header>
+
+  <!-- ===== HERO ============================================== -->
+  <section class="hero">
+    <p class="eyebrow">
+      <span class="status-dot"></span>
+      Systematic investing
+    </p>
+    <h1 class="hero__title">
+      Algorithms that trade.<br />
+      Discipline that scales.
+    </h1>
+    <p class="hero__subtitle">
+      Overions builds quantitative investment algorithms and IT infrastructure
+      for individuals and firms. Data-driven decisions, transparent methodology,
+      institutional-grade execution — without the institutional overhead.
+    </p>
+    <div class="hero__cta">
+      <a href="#contact" class="btn btn--primary">Request access</a>
+      <a href="#features" class="btn btn--ghost">See the platform</a>
+    </div>
+  </section>
+
+  <!-- ===== FEATURES ========================================== -->
+  <section id="features" class="features">
+    <p class="eyebrow">Platform</p>
+    <h2 class="section__title">Built for markets.</h2>
+    <div class="features__grid">
+      <article class="feature">
+        <div class="feature__num">01</div>
+        <h3>Backtested strategies</h3>
+        <p>Every algorithm validated against decades of market data before it touches a single dollar of capital.</p>
+      </article>
+      <article class="feature">
+        <div class="feature__num">02</div>
+        <h3>Automated execution</h3>
+        <p>Signals translated into trades without manual intervention or emotional interference — 24/5, across asset classes.</p>
+      </article>
+      <article class="feature">
+        <div class="feature__num">03</div>
+        <h3>Transparent methodology</h3>
+        <p>Every decision is traceable. No black boxes. You see exactly what the system sees, and why it acted.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ============================================= -->
+  <section id="about" class="about">
+    <div class="about__content">
+      <p class="eyebrow">About</p>
+      <h2 class="section__title">Tailor-made investing algorithms.</h2>
+      <p>Overions is an investing algorithm platform purpose-built for personalised, systematic investing. We develop tailor-made algorithms that are calibrated to each client's investment goals, risk profile, and market outlook — giving you institutional-grade precision without a one-size-fits-all approach.</p>
+      <p>Every algorithm is constructed from the ground up: backtested against years of market data, tuned to your specifications, and deployed on reliable automated infrastructure. Whether you are a private investor seeking consistent rules-based returns or a boutique firm looking to systematise your edge, Overions engineers the algorithm around you.</p>
+    </div>
+
+    <!-- Decorative performance chart -->
+    <div class="about__visual" aria-hidden="true">
+      <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg" class="chart">
+        <g class="chart__grid">
+          <line x1="0" y1="100" x2="400" y2="100"/>
+          <line x1="0" y1="200" x2="400" y2="200"/>
+          <line x1="0" y1="300" x2="400" y2="300"/>
+          <line x1="0" y1="400" x2="400" y2="400"/>
+          <line x1="100" y1="0"  x2="100" y2="500"/>
+          <line x1="200" y1="0"  x2="200" y2="500"/>
+          <line x1="300" y1="0"  x2="300" y2="500"/>
+        </g>
+        <path class="chart__area"
+              d="M 20 450 L 60 400 L 100 420 L 140 350 L 180 360 L 220 280 L 260 260 L 300 200 L 340 180 L 380 120 L 380 500 L 20 500 Z"/>
+        <polyline class="chart__line"
+                  points="20,450 60,400 100,420 140,350 180,360 220,280 260,260 300,200 340,180 380,120"/>
+        <circle class="chart__dot chart__dot--halo" cx="380" cy="120" r="10"/>
+        <circle class="chart__dot" cx="380" cy="120" r="4"/>
+        <text class="chart__label" x="20"  y="490">T-24M</text>
+        <text class="chart__label" x="348" y="490">NOW</text>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ===== CTA =============================================== -->
+  <section id="contact" class="cta">
+    <p class="eyebrow">Get started</p>
+    <h2>Ready to invest systematically?</h2>
+    <p>Join the waitlist and be among the first to run Overions algorithms on your portfolio.</p>
+    <a href="mailto:hello@overions.com" class="btn btn--light btn--large">
+      Request access
+    </a>
+  </section>
+
+  <!-- ===== FOOTER ============================================ -->
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <span class="nav__mark">◇</span> Overions
+      </div>
+      <div class="footer__links">
+        <a href="mailto:hello@overions.com">Email</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+      </div>
+    </div>
+    <p class="footer__disclaimer">
+      Overions provides investment technology and informational tools. Nothing on this site
+      constitutes financial advice or a recommendation to buy or sell securities. Past performance
+      does not guarantee future results. Invest only capital you can afford to lose.
+    </p>
+    <div class="footer__copy">© 2026 Overions. All rights reserved.</div>
+  </footer>
+
+</body>
+</html>
